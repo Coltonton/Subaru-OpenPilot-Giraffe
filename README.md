@@ -11,14 +11,13 @@ Some of the Giraffes have mistakes, everything in the `/Legacy Archival Giraffes
 
 # Versions 
 ## -V3-
-[![](https://i.imgur.com/jdrFQQ.jpg[/img])](#)
+[![](https://i.imgur.com/3Dcm47F.jpg?1[/img])](#)
 3.0 Was the real move and evolution, finally fitting it in the cover (Also what the **Smol Bugsy Giraffe** tried to acomplish but in a diffrent way.) I decided to stick on this path for a variety of reasons! I figured out there was no room under the cover... HOWEVER there was tons of room between the top of the EyeSight unit and the roof of the car. I already basiclly figured it out tho with [V1.1](#). Sometimes you have to look to the past to answer questions today! Again I was over-zellous with V1.1; but with sure luck, the space aloted to me by the Subaru engineers was a near perfect fit for Panda... Not even a MM of clearence at the smallest point. Working even more perfectly. So is born V3! Only taking to V3 Rev 4 (NIKI) to come up with the perfect and final layout; even solving my switch problem by making the board big enough to where the switches would just be at the gap between the windsheild and trim piece. giving a still invisible appearence, but not to diffiucult to actuate! Progress was made here! 
 
 The V3 also brought reverse compatability with already dead hardware (The Comma NEO) And was designed to have the factory connector pass above the EyeSight camera unit, plig into giraffe, then having a jumper connector to EyeSight. This ended up only being a posibillity for the Legacy/Outback models. All other Subarus did not have the room for the chonky stock connector. Sparking V3.7+ with its Y connector to pass above the camera unit. (I still prefer the Linda design, was nicer and ALOT easier to produce....)
 
 ### -V3.8.3 Austin-
 [![](https://i.imgur.com/EIHL5lK.png[/img])](#)
-[Link](https://i.imgur.com/EIHL5lK.png)
 
 This is a very special edition of the Subaru Giraffe, not only is it the last version to be released; but it was sold as special edition Giraffe. Released in a special blue PCB and dedicated to the memory of my friend and classmate from gradeschool, Austin, who was tragically taken from us March 20th, 2019; at the too young age of 19. Until we meet again...
 
@@ -31,39 +30,56 @@ This revision is still very near and dear to my heart and it pained me to no lon
 - Replaced the 3.7 Cynthia as this version was a 3.7 special edition! But its the same thing
 
 ### -V3.7 Cynthia-
-[![](https://i.imgur.com/jdrFQRQ.jpg[/img])](#)
-[Link](https://i.imgur.com/jdrFQRQ.jpg)
+[![](https://i.imgur.com/eLZLewe.jpg?2[/img])](#)
 - First itteration of the Subaru global support
 - See [Austin](#V3.8.3-Austin) for details, they are the same, [Austin](#V3.8.3-Austin) is just a special edition of Cynthia with more beautiful routing!
 
 ### -V3.6 Linda-
-[![](https://i.imgur.com/avl2vnH.jpg?1[/img])](#)
-[Link](https://i.imgur.com/avl2vnH.jpg?1)
+[![](https://i.imgur.com/YfTnDF9.jpg?2[/img])](#)
 - 2015-2019 Legacy/Outback Only
 - Added Subaru RAB Support
 - Added New Comma (Camera on CAN 3 instead of 2) Support
 
 ### -V3.4 Niki-
-[![](https://i.imgur.com/YfTnDF9.jpg?1[/img])](#)
-[Link](https://i.imgur.com/YfTnDF9.jpg?1)
+[![](https://i.imgur.com/avl2vnH.jpg?1[/img])](#)
 - 2015-2019 Legacy/Outback Only
 - Non RAB (Reverse Automatic Braking) Subarus ONLY
 
 ### -V3.2 & V3.3 Gem-
-[![](https://i.imgur.com/aBRCGPh.jpg?1[/img])](#)
-[Link](https://i.imgur.com/aBRCGPh.jpg?1)
+[![](https://i.imgur.com/aBRCGPh.jpg?2[/img])](#)
 - 2015-2019 Legacy/Outback Only
 - Non RAB (Reverse Automatic Braking) Subarus ONLY
 
 ### -V3.1 VIKI-
-[![](https://i.imgur.com/aBRCGPh.jpg?1[/img])](#)
-[Link](https://i.imgur.com/aBRCGPh.jpg?1)
+[![](https://i.imgur.com/FSTjpxB.jpg?2[/img])](#)
 - What Autum was supposed to be
 
 ### -V3.0 Autumn-
 Dedicated to the memory of a co-worker who died unexpectedly, Autumn, to launch the 3rd generaion of Subaru Girrafes (Non Working)
 
 ## -V2-
-2.0 is a perfect exaple of my mind thinking more complex at first then working to simplicity. The idea with this weird Giraffe was to be like all the other Girafes at the time where the board plugs directly into the cameras and the factory harness plugs into the board. This was a stupid idea as it would require cutting the EyeSight cover (or having it off) Witch we already had agreed was not going to happen... Too ugly, and expensive. It made a great development board as we were stil trying to get the Subaru port "functional"It even uses the exact dip switches as the others. But with a twist... My overengineering mind went crazy with ideas as I knew the Giraffe would end up getting hidden up in the cover; I still wanted an easy way to have the traditional "switches" to be able to toggle Stock/Openpilot. What did I do? the only logical thing of cour relays that could be hooked up to a switch and ran! It was a development platform so the *idea* was to be able to choose between dip switches or relay.
+[![](https://i.imgur.com/RgkPb2z.jpg?1[/img])](#)
+2.0 is a perfect exaple of my mind thinking more complex at first then working to simplicity. The idea with this weird Giraffe was to be like all the other Girafes at the time where the board plugs directly into the cameras and the factory harness plugs into the board. This was a stupid idea as it would require cutting the EyeSight cover (or having it off) Witch we already had agreed was not going to happen... Too ugly, and expensive. It made a great development board as we were stil trying to get the Subaru port "functional"It even uses the exact dip switches as the others. But with a twist... My overengineering mind went crazy with ideas as I knew the Giraffe would end up getting hidden up in the cover; I still wanted an easy way to have the traditional "switches" to be able to toggle Stock/Openpilot. What did I do? the only logical thing of cour relays that could be hooked up to a switch and ran! It was a development platform so the *idea* was to be able to choose between dip switches or relay. Im pretty sure they wouldnt work anyway as they are Solid state relays... idk... never tried them...
 
 It's funny because a year later Comma.ai made the **Subaru Acess Point** with... a relay..... to control switching.... Eventully becoming the [Comma Harnes](https://comma.ai/shop/products/comma-car-harness)....  Admitidly they did do it better.... Except for using the USB Type-C Conenctors...... It would of been the eventual evolution of my product to go back to relay control anyway! I take one big leap, have to crawl backwards crying and work my way back.....  
+
+## -V1-
+[![](https://i.imgur.com/X9VkgRz.jpg?2[/img])](#)
+Mr Overthinkers, first Giraffe overthink, before I found out Panda did fit somewhere in the EyeSight cover i had the briallant idea to tear appart the Comma Panda and just put it on the Giraffe
+
+Rip White Panda - unknown year
+
+Features eletronic relays that could be used to solve our switch situation (im wrighting this in reverse order so see V2 for info on that....)
+
+## -V0.1-
+[![](https://i.imgur.com/MxuJyBj.jpg?1[/img])](#)
+
+**My Firts PCB** features include:
+
+- 90deg track corners
+- Weird angle lines (non 45deg multiple)
+- OBD socket doesnt even fit
+- Eyesight connectors dont even fit
+- No idea what I was doing (clearly)
+- Absolute trash
+- Prolly will blow up your car
